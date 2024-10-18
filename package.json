@@ -2,9 +2,14 @@
   "name": "my-final-project",
   "version": "1.0.0",
   "description": "WDD330 - My Final Project",
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+ "scripts": {
+    "start": "parcel index.js",
+    "build": "parcel build index.html",
+    "lint": "eslint \"**/*.{js,jsx,ts,tsx}\"",
+    "format": "prettier --write ."
   },
-  "author": "Ronaldo Venancio <ronaldovenanciorvs@gmail.com>"
+  "author": "Ronaldo Venancio <ronaldovenanciorvs@gmail.com>",
+  "dependencies": {
+    "parcel": "^2.12.0"
+  }
 }
